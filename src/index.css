@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  /* background-image: url(/public/img/bg.jpg); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #eff6fc !important;
+}
+
+.container__app {
+  width: 80vw;
+  height: 90vh;
+  display: flex;
+  /* gap: 20px; */
+}

@@ -1,0 +1,46 @@
+.settings-popup {
+  position: absolute;
+  bottom: 60px;
+  left: 210px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.settings-popup h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.settings-popup ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.settings-popup ul li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.settings-popup ul li:hover {
+  background: #f1f1f1;
+}
+
+.close-btn {
+  width: 100%;
+  padding: 8px;
+  background: #d9534f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.close-btn:hover {
+  background: #c9302c;
+}

@@ -1,0 +1,41 @@
+.home-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 5px 2px #79c5ef61;
+  color: #000;
+  width: -webkit-fill-available;
+}
+
+.chat-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.btns {
+  gap: 20px;
+}
+
+.create-group-btn,
+.add-user-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #5a01ea;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-group-btn:hover,
+.add-user-btn:hover {
+  background-color: #5a01ea;
+}

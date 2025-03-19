@@ -1,0 +1,29 @@
+.search {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 5px 2px #79c5ef61;
+
+  .searchBar {
+    flex: 1;
+    /* background-color: rgba(17, 25, 40, 0.5); */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 20px;
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: #000;
+      flex: 1;
+      font-size: 20px;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
