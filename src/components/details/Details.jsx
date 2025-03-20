@@ -4,7 +4,7 @@ import React from "react";
 const Details = ({ onClose }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal" onClick={(e) => e.stopPropagation()}>
+      <div className="modal-open" onClick={(e) => e.stopPropagation()}>
         <div className="user">
           <img src="/img/avatar.png" alt="" />
           <h3>Jone Doe</h3>

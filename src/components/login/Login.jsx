@@ -57,7 +57,7 @@ const Login = () => {
             isSignUp ? "d-none" : "d-flex"
           }`}
         >
-          <h2>Welcome back,</h2>
+          <h2 className="mb-3">Welcome back,</h2>
           <form
             onSubmit={handleLogin}
             className="d-flex flex-column align-items-center justify-content-center"
@@ -77,7 +77,7 @@ const Login = () => {
               onChange={handleLoginChange}
             />
             <button type="submit">Sign In</button>
-            <p className="text-center w-100">
+            <p className="text-center w-100 mt-3">
               Don't have an account?{" "}
               <a
                 href="#"
@@ -95,7 +95,7 @@ const Login = () => {
             isSignUp ? "d-flex" : "d-none"
           }`}
         >
-          <h2>Create an Account,</h2>
+          <h2 className="mb-3">Sign Up to Chat,</h2>
           <form
             onSubmit={handleSignup}
             className="d-flex flex-column align-items-center justify-content-center"
@@ -133,7 +133,7 @@ const Login = () => {
               onChange={handleSignupChange}
             />
             <button type="submit">Sign Up</button>
-            <p className="text-center w-100">
+            <p className="text-center w-100 mt-3">
               Already have an account?{" "}
               <a
                 href="#"

@@ -20,7 +20,7 @@ const Chat = () => {
   };
 
   return (
-    <div className="chat">
+    <div className="chat d-none d-lg-flex">
       {showDetails && <Details onClose={() => setShowDetails(false)} />}
 
       <div className="top">

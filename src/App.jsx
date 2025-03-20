@@ -15,7 +15,7 @@ function App() {
   const [activeTab, setActiveTab] = useState(1);
 
   return (
-    <div className="container__app gap-0 gap-lg-4">
+    <div className="container__app gap-lg-4">
       {user ? (
         <>
           <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} />
