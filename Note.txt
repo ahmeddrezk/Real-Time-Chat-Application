@@ -1,0 +1,14 @@
+.env(backend)
+
+PORT=5001
+MONGO_URI=mongodb+srv://ahmedrezkramadan:KY4OC9i7uSyjadW7@cluster0.6kgpbc4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+STEAM_API_KEY=t5zmvpm3wr39
+STEAM_API_SECRET=yhhvkz6yc7qdgrfvd729kf32njpx735c3wcdr27y652nhdcfsf5fztd93jjhp5qw
+
+JWT_SECRET_KEY=FdhF2+NJgd6WgBSjmoNHtmKQbFLXdENsMc5h7Kgw+24=
+NODE_ENV=development
+
+.env(frontend)
+
+VITE_STREAM_API_KEY=t5zmvpm3wr39
